@@ -25,7 +25,7 @@ var response Data
 var errc Error
 
 func main(){
-	fmt.Println("\n==Telegram bot==\nStarted...")
+	fmt.Println("\n==Telegram bot==\nInitialized...")
 	token = "640784566:AAEj_ak_EjGeOR_AbmrJcdj2MhhSWUJbeHk"
 	for true{
 		go receive()
