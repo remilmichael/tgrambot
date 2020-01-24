@@ -26,7 +26,7 @@ var errc Error
 
 func main(){
 	fmt.Println("\n==Telegram bot==\nInitialized...")
-	token = "640784566:AAEj_ak_EjGeOR_AbmrJcdj2MhhSWUJbeHk"
+	token = "/////ADD YOUR BOT TOKEN HERE\\\\\\"
 	for true{
 		go receive()
 		time.Sleep(5 * time.Second)
